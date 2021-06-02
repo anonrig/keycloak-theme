@@ -1,0 +1,21 @@
+{
+  "name": "pti-health-theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:tailwind": "tailwind build ./tailwind.css -o css/styles.output.css",
+    "watch:tailwind": "chokidar './tailwind.css' --ignore css/styles.output.css -c 'npm run build:tailwind'"
+  },
+  "author": "Björn Schmidtke",
+  "license": "MIT",
+  "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.2.1",
+    "@tailwindcss/forms": "^0.3.2",
+    "@tailwindcss/line-clamp": "^0.2.1",
+    "@tailwindcss/typography": "^0.4.1",
+    "@tailwindcss/ui": "^0.7.2",
+    "chokidar-cli": "^2.1.0",
+    "tailwindcss": "^2.1.2"
+  }
+}
