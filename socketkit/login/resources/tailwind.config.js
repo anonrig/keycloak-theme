@@ -1,3 +1,6 @@
+const theme = require('tailwindcss/defaultTheme')
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   mode: 'jit',
   purge: ["../*.ftl"],
