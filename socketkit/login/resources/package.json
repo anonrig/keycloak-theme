@@ -11,11 +11,12 @@
   "license": "MIT",
   "dependencies": {
     "@tailwindcss/aspect-ratio": "^0.2.1",
-    "@tailwindcss/forms": "^0.3.2",
+    "@tailwindcss/forms": "^0.3.3",
     "@tailwindcss/line-clamp": "^0.2.1",
     "@tailwindcss/typography": "^0.4.1",
     "@tailwindcss/ui": "^0.7.2",
+    "autoprefixer": "^10.2.6",
     "chokidar-cli": "^2.1.0",
-    "tailwindcss": "^2.1.2"
+    "tailwindcss": "^2.1.4"
   }
 }
